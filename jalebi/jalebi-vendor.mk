@@ -219,7 +219,19 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so
+    vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+	vendor/yu/jalebi/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
+    vendor/yu/jalebi/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/yu/jalebi/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/yu/jalebi/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/yu/jalebi/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/yu/jalebi/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/yu/jalebi/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
