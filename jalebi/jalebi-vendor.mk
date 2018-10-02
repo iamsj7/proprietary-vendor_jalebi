@@ -53,7 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/yu/jalebi/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
     vendor/yu/jalebi/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
-	vendor/yu/jalebi/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/yu/jalebi/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/yu/jalebi/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/libchromatix_ov8865_qtech_baly_6c_video_hd.so:system/vendor/lib/libchromatix_ov8865_qtech_baly_6c_video_hd.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libchromatix_ov8865_qtech_baly_6c_zsl.so:system/vendor/lib/libchromatix_ov8865_qtech_baly_6c_zsl.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-	vendor/yu/jalebi/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/yu/jalebi/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
@@ -222,18 +222,18 @@ PRODUCT_COPY_FILES += \
     vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/yu/jalebi/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-	vendor/yu/jalebi/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxAlacDec.so:system/vendor/lib/libOmxAlacDec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
     vendor/yu/jalebi/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
-    vendor/yu/jalebi/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
-    vendor/yu/jalebi/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/yu/jalebi/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
-    vendor/yu/jalebi/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/yu/jalebi/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
-    vendor/yu/jalebi/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so
+    vendor/yu/jalebi/proprietary/vendor/lib/libFileMux.so:system/lib/libFileMux.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libmmosal.so:system/lib/libmmosal.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
+    vendor/yu/jalebi/proprietary/vendor/lib/libvpplibrary.so:system/lib/libvpplibrary.so
 
 PRODUCT_PACKAGES += \
     libloc_api_v02 \
